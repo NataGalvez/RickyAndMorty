@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>RickandMorty.com</title>
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+        <main class="center">
+            <div class="row">
+                <div id="titleHtml">
+                    <h1>¡Encuentra a tu personaje favorito!</h1>
+                </div>
+                <div class="buttonContainer" id="divCharacter">
+                  <button id="btnSingle" class="button">Buscar por personaje</button>
+                </div>
+                <div class="buttonContainer" id="divMasive">
+                  <button id="btnMultiple" class="button">Busqueda masiva</button>
+                </div>
+                <div class="buttonContainer" id="divPercent">
+                  <button type="button" id="btnStatistics" class="button"> Estadísticas</button>
+                </div>
+                <div id="percent">
+                    <button type="button" id="btnAlives" class="button"> Personajes vivos</button>
+                </div>
+                <div id="single" class="searchContainer">
+                    <label class="character">Personajes</label>
+                    <select  id="formCharacter">
+                        <option value=""> Seleccione un Personaje</option>
+                    </select>
+                </div>
+                <div class="searchContainer" id="multiple" >
+                    <label class="search">Estatus</label>
+                    <select id="formStatus">
+                        <option value=""> Seleccione un estatus</option>
+                    </select>
+                    <div class="search">
+                    <label class="search">Especies</label>
+                    <select id="formSpecies">
+                        <option value=""> Seleccione una especie</option>
+                       
+                    </select>
+                    </div>
+                    <div class="search">
+                    <label class="search">Genero</label>
+                    <select id="formGender">
+                        <option value=""> Seleccione un género</option>
+                    </select>
+                    </div>
+                    <div class="search">
+                      <label>Ordenar</label>
+                      <input type="hidden" id="lastSearch">
+                      <input type="hidden" id="lastValue">
+                      <button type="button" id="a-z" class="buttonOrder">A-Z</button>
+                      <button type="button" id="z-a" class="buttonOrder">Z-A</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                <div id="result" class="contents"></div>
+                <div id="divCalculate" class="calculate"></div>
+
+            </div>
+            </div>
+            <footer>
+              <img src="../img/footer.png" alt="footer">
+            </footer>
+        </main>
+        <script src="./data/rickandmorty/rickandmorty.js"></script>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

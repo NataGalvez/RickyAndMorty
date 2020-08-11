@@ -1,0 +1,118 @@
+.menu{
+	text-align: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #A24500; 
+
+}
+li{	
+	display: inline;
+}
+
+li a{
+	size: 20px;
+	color: white;
+	padding: 10px 14px;
+}
+
+h1{
+	text-align: center;
+}
+a{
+	font-size: 25px;
+}
+body{
+	color: white;
+	background-color: black;
+	padding: 0 100px 0 100px; /*arribaderechaabajoizquierda*/
+	font-size: 0.8rem;
+	font-family: sans-serif;
+
+}
+
+
+.etiquet{
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 3px;
+	width: 19.2%;
+	border: 1px white solid;
+	border-radius: 0px 0px 20px 20px;
+	background: white;
+	color: black;
+}
+.etiquet img{
+	width: 100%;
+
+}
+
+
+.search{
+	display: inline;
+
+}
+
+#multiple{
+	display: none;
+}
+#single{
+	display: none;
+}
+.button{
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: 5px;
+	background-color: #01B1FD;
+	color: white;
+	font-size: 1rem;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.buttonContainer{
+	display: inline-block;
+}
+.row{
+	text-align: center;
+}
+footer img{
+	width: 100%;
+	
+	
+}
+.searchContainer{
+	padding: 50px;
+	border: 1px white solid;
+	border-radius: 100px;
+	margin-top: 10px;
+
+}
+select{
+	height: 30px;
+}
+label{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.buttonOrder{
+	height: 30px;
+	border-radius: 30px;
+	border: 5px;
+	background-color: #01B1FD;
+	color: white;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+#percent{
+	display: none;
+}
+.calculate{
+	font-size: 40px;
+	font-weight: bold;
+}
